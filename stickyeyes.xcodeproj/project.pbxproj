@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB81D2E5195B6AA500B87D28 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB81D2E4195B6AA500B87D28 /* Foundation.framework */; };
+		BB81D2E7195B6AA500B87D28 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB81D2E6195B6AA500B87D28 /* CoreGraphics.framework */; };
+		BB81D2E9195B6AA500B87D28 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB81D2E8195B6AA500B87D28 /* UIKit.framework */; };
+		BB81D2EF195B6AA500B87D28 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BB81D2ED195B6AA500B87D28 /* InfoPlist.strings */; };
+		BB81D2F1195B6AA500B87D28 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB81D2F0195B6AA500B87D28 /* main.m */; };
+		BB81D2F5195B6AA500B87D28 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB81D2F4195B6AA500B87D28 /* AppDelegate.m */; };
+		BB81D2F8195B6AA500B87D28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB81D2F6195B6AA500B87D28 /* Main.storyboard */; };
+		BB81D2FB195B6AA500B87D28 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB81D2FA195B6AA500B87D28 /* ViewController.m */; };
+		BB81D2FD195B6AA500B87D28 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB81D2FC195B6AA500B87D28 /* Images.xcassets */; };
+		BB81D304195B6AA500B87D28 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB81D303195B6AA500B87D28 /* XCTest.framework */; };
+		BB81D305195B6AA500B87D28 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB81D2E4195B6AA500B87D28 /* Foundation.framework */; };
+		BB81D306195B6AA500B87D28 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB81D2E8195B6AA500B87D28 /* UIKit.framework */; };
+		BB81D30E195B6AA500B87D28 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BB81D30C195B6AA500B87D28 /* InfoPlist.strings */; };
+		BB81D310195B6AA500B87D28 /* stickyeyesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB81D30F195B6AA500B87D28 /* stickyeyesTests.m */; };
+		BB81D31A195B73B900B87D28 /* sticky_eye.png in Resources */ = {isa = PBXBuildFile; fileRef = BB81D319195B73B900B87D28 /* sticky_eye.png */; };
+		BB81D31C195B825B00B87D28 /* camera-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BB81D31B195B825B00B87D28 /* camera-icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB81D307195B6AA500B87D28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB81D2D9195B6AA500B87D28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB81D2E0195B6AA500B87D28;
+			remoteInfo = stickyeyes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BB81D2E1195B6AA500B87D28 /* stickyeyes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stickyeyes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB81D2E4195B6AA500B87D28 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BB81D2E6195B6AA500B87D28 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BB81D2E8195B6AA500B87D28 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BB81D2EC195B6AA500B87D28 /* stickyeyes-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "stickyeyes-Info.plist"; sourceTree = "<group>"; };
+		BB81D2EE195B6AA500B87D28 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BB81D2F0195B6AA500B87D28 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BB81D2F2195B6AA500B87D28 /* stickyeyes-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "stickyeyes-Prefix.pch"; sourceTree = "<group>"; };
+		BB81D2F3195B6AA500B87D28 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BB81D2F4195B6AA500B87D28 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BB81D2F7195B6AA500B87D28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB81D2F9195B6AA500B87D28 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BB81D2FA195B6AA500B87D28 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BB81D2FC195B6AA500B87D28 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BB81D302195B6AA500B87D28 /* stickyeyesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = stickyeyesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB81D303195B6AA500B87D28 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BB81D30B195B6AA500B87D28 /* stickyeyesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "stickyeyesTests-Info.plist"; sourceTree = "<group>"; };
+		BB81D30D195B6AA500B87D28 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BB81D30F195B6AA500B87D28 /* stickyeyesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = stickyeyesTests.m; sourceTree = "<group>"; };
+		BB81D319195B73B900B87D28 /* sticky_eye.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sticky_eye.png; sourceTree = "<group>"; };
+		BB81D31B195B825B00B87D28 /* camera-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera-icon.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB81D2DE195B6AA500B87D28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB81D2E7195B6AA500B87D28 /* CoreGraphics.framework in Frameworks */,
+				BB81D2E9195B6AA500B87D28 /* UIKit.framework in Frameworks */,
+				BB81D2E5195B6AA500B87D28 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB81D2FF195B6AA500B87D28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB81D304195B6AA500B87D28 /* XCTest.framework in Frameworks */,
+				BB81D306195B6AA500B87D28 /* UIKit.framework in Frameworks */,
+				BB81D305195B6AA500B87D28 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB81D2D8195B6AA500B87D28 = {
+			isa = PBXGroup;
+			children = (
+				BB81D2EA195B6AA500B87D28 /* stickyeyes */,
+				BB81D309195B6AA500B87D28 /* stickyeyesTests */,
+				BB81D2E3195B6AA500B87D28 /* Frameworks */,
+				BB81D2E2195B6AA500B87D28 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB81D2E2195B6AA500B87D28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB81D2E1195B6AA500B87D28 /* stickyeyes.app */,
+				BB81D302195B6AA500B87D28 /* stickyeyesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB81D2E3195B6AA500B87D28 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB81D2E4195B6AA500B87D28 /* Foundation.framework */,
+				BB81D2E6195B6AA500B87D28 /* CoreGraphics.framework */,
+				BB81D2E8195B6AA500B87D28 /* UIKit.framework */,
+				BB81D303195B6AA500B87D28 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB81D2EA195B6AA500B87D28 /* stickyeyes */ = {
+			isa = PBXGroup;
+			children = (
+				BB81D2F3195B6AA500B87D28 /* AppDelegate.h */,
+				BB81D2F4195B6AA500B87D28 /* AppDelegate.m */,
+				BB81D2F6195B6AA500B87D28 /* Main.storyboard */,
+				BB81D2F9195B6AA500B87D28 /* ViewController.h */,
+				BB81D2FA195B6AA500B87D28 /* ViewController.m */,
+				BB81D2FC195B6AA500B87D28 /* Images.xcassets */,
+				BB81D2EB195B6AA500B87D28 /* Supporting Files */,
+			);
+			path = stickyeyes;
+			sourceTree = "<group>";
+		};
+		BB81D2EB195B6AA500B87D28 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB81D2EC195B6AA500B87D28 /* stickyeyes-Info.plist */,
+				BB81D31B195B825B00B87D28 /* camera-icon.png */,
+				BB81D319195B73B900B87D28 /* sticky_eye.png */,
+				BB81D2ED195B6AA500B87D28 /* InfoPlist.strings */,
+				BB81D2F0195B6AA500B87D28 /* main.m */,
+				BB81D2F2195B6AA500B87D28 /* stickyeyes-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BB81D309195B6AA500B87D28 /* stickyeyesTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB81D30F195B6AA500B87D28 /* stickyeyesTests.m */,
+				BB81D30A195B6AA500B87D28 /* Supporting Files */,
+			);
+			path = stickyeyesTests;
+			sourceTree = "<group>";
+		};
+		BB81D30A195B6AA500B87D28 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB81D30B195B6AA500B87D28 /* stickyeyesTests-Info.plist */,
+				BB81D30C195B6AA500B87D28 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB81D2E0195B6AA500B87D28 /* stickyeyes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB81D313195B6AA500B87D28 /* Build configuration list for PBXNativeTarget "stickyeyes" */;
+			buildPhases = (
+				BB81D2DD195B6AA500B87D28 /* Sources */,
+				BB81D2DE195B6AA500B87D28 /* Frameworks */,
+				BB81D2DF195B6AA500B87D28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = stickyeyes;
+			productName = stickyeyes;
+			productReference = BB81D2E1195B6AA500B87D28 /* stickyeyes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB81D301195B6AA500B87D28 /* stickyeyesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB81D316195B6AA500B87D28 /* Build configuration list for PBXNativeTarget "stickyeyesTests" */;
+			buildPhases = (
+				BB81D2FE195B6AA500B87D28 /* Sources */,
+				BB81D2FF195B6AA500B87D28 /* Frameworks */,
+				BB81D300195B6AA500B87D28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB81D308195B6AA500B87D28 /* PBXTargetDependency */,
+			);
+			name = stickyeyesTests;
+			productName = stickyeyesTests;
+			productReference = BB81D302195B6AA500B87D28 /* stickyeyesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB81D2D9195B6AA500B87D28 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "John Paul Hayes";
+				TargetAttributes = {
+					BB81D301195B6AA500B87D28 = {
+						TestTargetID = BB81D2E0195B6AA500B87D28;
+					};
+				};
+			};
+			buildConfigurationList = BB81D2DC195B6AA500B87D28 /* Build configuration list for PBXProject "stickyeyes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB81D2D8195B6AA500B87D28;
+			productRefGroup = BB81D2E2195B6AA500B87D28 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB81D2E0195B6AA500B87D28 /* stickyeyes */,
+				BB81D301195B6AA500B87D28 /* stickyeyesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB81D2DF195B6AA500B87D28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB81D2FD195B6AA500B87D28 /* Images.xcassets in Resources */,
+				BB81D2EF195B6AA500B87D28 /* InfoPlist.strings in Resources */,
+				BB81D31C195B825B00B87D28 /* camera-icon.png in Resources */,
+				BB81D31A195B73B900B87D28 /* sticky_eye.png in Resources */,
+				BB81D2F8195B6AA500B87D28 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB81D300195B6AA500B87D28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB81D30E195B6AA500B87D28 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB81D2DD195B6AA500B87D28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB81D2FB195B6AA500B87D28 /* ViewController.m in Sources */,
+				BB81D2F5195B6AA500B87D28 /* AppDelegate.m in Sources */,
+				BB81D2F1195B6AA500B87D28 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB81D2FE195B6AA500B87D28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB81D310195B6AA500B87D28 /* stickyeyesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB81D308195B6AA500B87D28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB81D2E0195B6AA500B87D28 /* stickyeyes */;
+			targetProxy = BB81D307195B6AA500B87D28 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BB81D2ED195B6AA500B87D28 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB81D2EE195B6AA500B87D28 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BB81D2F6195B6AA500B87D28 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB81D2F7195B6AA500B87D28 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BB81D30C195B6AA500B87D28 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB81D30D195B6AA500B87D28 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB81D311195B6AA500B87D28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BB81D312195B6AA500B87D28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB81D314195B6AA500B87D28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "stickyeyes/stickyeyes-Prefix.pch";
+				INFOPLIST_FILE = "stickyeyes/stickyeyes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BB81D315195B6AA500B87D28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "stickyeyes/stickyeyes-Prefix.pch";
+				INFOPLIST_FILE = "stickyeyes/stickyeyes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BB81D317195B6AA500B87D28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/stickyeyes.app/stickyeyes";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "stickyeyes/stickyeyes-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "stickyeyesTests/stickyeyesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BB81D318195B6AA500B87D28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/stickyeyes.app/stickyeyes";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "stickyeyes/stickyeyes-Prefix.pch";
+				INFOPLIST_FILE = "stickyeyesTests/stickyeyesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB81D2DC195B6AA500B87D28 /* Build configuration list for PBXProject "stickyeyes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB81D311195B6AA500B87D28 /* Debug */,
+				BB81D312195B6AA500B87D28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB81D313195B6AA500B87D28 /* Build configuration list for PBXNativeTarget "stickyeyes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB81D314195B6AA500B87D28 /* Debug */,
+				BB81D315195B6AA500B87D28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BB81D316195B6AA500B87D28 /* Build configuration list for PBXNativeTarget "stickyeyesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB81D317195B6AA500B87D28 /* Debug */,
+				BB81D318195B6AA500B87D28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB81D2D9195B6AA500B87D28 /* Project object */;
+}
